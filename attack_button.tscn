@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://cixf56fmwe8h1"]
+
+[ext_resource type="Texture2D" uid="uid://bf38eqdlpu5xv" path="res://VirtualJoystickPack/SmallHandleFilledGrey.png" id="1_5i00q"]
+[ext_resource type="Script" uid="uid://dmxcihkaiehi6" path="res://attack_button.gd" id="2_clv2i"]
+[ext_resource type="Texture2D" uid="uid://bb3rqhe683que" path="res://VirtualJoystickPack/SmallHandleFilled.png" id="2_wc624"]
+
+[node name="AttackButton" type="TouchScreenButton" unique_id=972034876]
+position = Vector2(405, 390)
+texture_normal = ExtResource("1_5i00q")
+texture_pressed = ExtResource("2_wc624")
+script = ExtResource("2_clv2i")
